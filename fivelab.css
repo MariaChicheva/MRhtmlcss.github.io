@@ -7,8 +7,8 @@
 html,
 body {
     font-size: 15px;/*Размер шрифта*/
-    background-color:#9f9ceb;
-    color: #08021e;
+    background-color:#b3b1f1;
+    color: #18084e;
     display:flex;
     width: 100%;
     min-height: 100%;
@@ -21,7 +21,7 @@ body {
     
 }
 header {
-  background: #636eb3;
+  background: #7480cbdd;
   border-radius: 5%;
   width:200vh;
   margin: 1%;
@@ -29,14 +29,16 @@ header {
 }
 aside {
   margin: 0.5rem;/*размер относительно шрифта*/
-  background: #636eb3;
+  font-size: 13px;
+  background: #7480cbdd;
   margin: 5px;
   margin-right: 25px;
   padding: 1%;
-  width: 8%;
+  width: 10%;
   height: 120vh;
   float: left;
   border-radius: 6%;
+  
 }
 .center{
   align-items:center;
@@ -52,12 +54,18 @@ aside {
 .text{
   justify-content: center;
   padding: auto;
-  margin: 2%;
+  margin: 1%;
   padding: 1%;
 }
-.footer{
-  justify-content:space-around;
+footer{
+  /*justify-content:space-around;
   width: 120px !important;
   height: 75px !important;
-  border-radius: 3%;
+  border-radius: 3%;*/
+  width: 1240px;
+  height: 70px;
+  background-image: url("footerr123.jpg");
+  background-size: 100%, 80%;
+  background-position: 1px;
+  border-radius: 5%;
  }
